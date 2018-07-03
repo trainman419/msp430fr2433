@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-svd2rust -i msp430fr2433 --target msp430 > lib.rs
+svd2rust -i msp430fr2433.svd --target msp430 > lib.rs
 
 rm -rf src/
 mkdir -p src
