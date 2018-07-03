@@ -3990,13 +3990,6 @@
           <addressOffset>42</addressOffset>
           <size>16</size>
           <resetMask>65535</resetMask>
-        </register>
-        <register>
-          <name>UCB0IE</name>
-          <description>USCI B0 Interrupt Enable Register</description>
-          <addressOffset>42</addressOffset>
-          <size>16</size>
-          <resetMask>65535</resetMask>
           <fields>
             <field>
               <name>UCRXIE0</name>
@@ -4119,13 +4112,6 @@
               <enumeratedValues/>
             </field>
           </fields>
-        </register>
-        <register>
-          <name>UCB0IFG</name>
-          <description>USCI B0 Interrupt Flags Register</description>
-          <addressOffset>44</addressOffset>
-          <size>16</size>
-          <resetMask>65535</resetMask>
         </register>
         <register>
           <name>UCB0IFG</name>
